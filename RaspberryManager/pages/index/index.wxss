@@ -1,0 +1,95 @@
+/* pages/index/index.wxss */
+.wrapper{
+  background: #21212b;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.pi-item{
+  width:680rpx;
+  min-height: 300rpx;
+  background: #30303b;
+  margin: 30rpx 0rpx;
+  border-radius: 20rpx;
+  padding: 40rpx;
+  box-sizing: border-box;
+}
+
+.pi-item>view{
+  margin-top: 26rpx;
+}
+.pi-add>view{
+  margin-top: initial;
+}
+
+.tool-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80rpx;
+}
+.pi-name{
+  font-size: 38rpx;
+  font-weight: bold;
+  height: 100%;
+  line-height: 80rpx;
+  overflow: hidden;
+}
+.tools{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.tools-item{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100%;
+  background: #42b0de;
+  margin: 0rpx 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+.tools-add{
+  background: initial;
+}
+.tools-item image{
+  width: 70%;
+  height: 70%;
+}
+
+.ip-info{
+  color: #958e8a;
+  margin-bottom: 35rpx;
+}
+.text{
+  color: #de426b;
+}
+
+.pi-status{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pi-status-item{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100%;
+  position: relative;
+}
+.cir-content{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

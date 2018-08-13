@@ -1,0 +1,47 @@
+<view class='wrapper horizontally'>
+  <view class='pi-item'>
+    <view class='tool-bar'>
+      <view class='pi-name'>613's Raspberry</view>
+      <view class='tools'>
+         <view class='tools-item'>
+          <image src='/resources/icons/edit.png'></image>
+        </view>
+         <view class='tools-item'>
+          <image src='/resources/icons/more.png'></image>
+        </view>
+      </view>
+    </view>
+    <view class='ip-info'>
+      pi@192.168.1.189:22
+    </view>
+    <view class='pi-status'>
+      <view class='pi-status-item'>
+          <canvas class="cir" style="width:200rpx; height:200rpx;" canvas-id="canvasArc1">
+          </canvas>
+          <view class='cir-content'>
+             CPU
+          </view>
+      </view>
+      <view class='pi-status-item'>
+          <canvas class="cir" style="width:200rpx; height:200rpx;" canvas-id="canvasArc2">
+          </canvas>
+          <view class='cir-content'>
+            内存
+          </view>
+      </view>
+      <view class='pi-status-item'>
+           <canvas class="cir" style="width:200rpx; height:200rpx;" canvas-id="canvasArc3">
+           </canvas>
+           <view class='cir-content'>
+            空间
+          </view>
+      </view>
+    </view>
+  </view>
+   <view class='pi-item pi-add both-center'>
+      <view class='tools-item tools-add'>
+          <image src='/resources/icons/add.png'></image>
+        </view>
+      <view class='text'>新建连接</view>
+  </view>
+</view>
